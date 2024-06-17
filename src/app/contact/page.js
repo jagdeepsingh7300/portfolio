@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import { useState } from "react";
 import contactStyles from "../styles/Contact.module.css";
-const contact = () => {
+const Contact = () => {
   const [status, setStatus] = useState("");
   const [user, setUser] = useState({
     fName: "",
@@ -156,4 +156,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

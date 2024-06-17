@@ -14,7 +14,9 @@ const HomePage = () => {
         ></Image>
         <div className={styles.hero_section}>
           <div className={styles.hero_section_container}>
-            <h1 className={styles.hero_sectionName}>Hi, I'm JAGDEEP SINGH</h1>
+            <h1 className={styles.hero_sectionName}>
+              Hi, I&apos;m JAGDEEP SINGH
+            </h1>
             <p className={styles.hero_section_heading}>A web Developer</p>
             <p className={styles.hero_section_decription}>
               Where creativity meets technology, we make the web come alive.
