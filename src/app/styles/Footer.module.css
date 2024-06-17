@@ -1,0 +1,36 @@
+.footer_container {
+  background-color: #f7fafc;
+}
+
+.left_footer_section {
+  text-align: center;
+}
+
+.quick_links_container {
+  text-align: center;
+}
+
+.quick_links {
+  list-style: none;
+  padding: 0%;
+  text-decoration: none;
+}
+
+.quick_links a {
+  text-decoration: none;
+}
+
+.quick_links a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+@media (min-width: 769px) {
+  .right_reserved {
+    margin-left: 180px;
+  }
+}
+
+.main_footer {
+  padding: 30px;
+}

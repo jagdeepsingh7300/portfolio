@@ -1,0 +1,14 @@
+.success {
+  color: green;
+}
+
+.error_msg {
+  color: red;
+}
+.textField {
+  color: black;
+}
+
+.error {
+  align-self: flex-start;
+}
