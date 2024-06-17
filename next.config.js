@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+
+const path = require("path");
 const nextConfig = {
   compiler: {
     styledComponents: true,
@@ -7,6 +9,10 @@ const nextConfig = {
     serverActions: true,
     appDir: true,
     serverComponentsExternalPackages: ["mongoose"],
+  },
+  webpack: (config) => {
+    config.resolve.alias["@"] = path.resolve(__dirname, "src");
+    return config;
   },
 };
 
